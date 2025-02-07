@@ -9,6 +9,15 @@ Node.js (version 14 or higher)
 npm (Node package manager, comes with Node.js)
 IDE: Visual Studio Code
 
+## Cloning the Repository
+To get started with this project, you need to clone the repository to your local machine. Follow these steps:
+
+1. **Open your terminal** (or command prompt).
+2. **Navigate to the directory** where you want to clone the repository.
+3. **Run the following command** to clone the repository:
+
+git clone https://github.com/sonyguntuka-Levelup/SonyGuntuka_Automation_Assessment_Playwright.git
+
 Getting Started
 Follow these steps to set up the project and run the tests:
 
