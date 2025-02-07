@@ -5,7 +5,7 @@ module.exports = defineConfig({
   timeout: 30000, // Set a global timeout for tests
   use: {
     headless: true, // Run tests in headless mode
-    screenshot: 'on', // Take screenshots on failure
+    screenshot: 'on', // Take screenshots for all test results, regardless of pass or fail
     video: 'retain-on-failure', // Record video on failure
     workers: 4, // Adjust this number based on your machine's capabilities
   },

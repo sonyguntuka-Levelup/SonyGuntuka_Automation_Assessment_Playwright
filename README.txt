@@ -7,6 +7,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 Node.js (version 14 or higher)
 npm (Node package manager, comes with Node.js)
+IDE: Visual Studio Code
 
 Getting Started
 Follow these steps to set up the project and run the tests:
@@ -43,6 +44,8 @@ You can also find this index.html file under the folder playwright-report //I am
 You can also quickly view the last test run report using the command:
 
 npx playwright show-report
+
+You can try to fail a test and check if the screenshot and video are recorded for debugging purpose.
 
 6. Additional Commands
 Run Tests in Headless Mode: By default, Playwright runs tests in headless mode. If you want to see the browser UI, you can run:
