@@ -1,7 +1,7 @@
 // playwright.config.js
-const { defineConfig } = require('@playwright/test');
+import { defineConfig } from '@playwright/test';
 
-module.exports = defineConfig({
+export default defineConfig({
   timeout: 30000, // Set a global timeout for tests
   use: {
     headless: true, // Run tests in headless mode

@@ -1,0 +1,28 @@
+Test Case ID,Test Case,Test Description,Pre-conditions,Test Steps,Test Data,Expected Result,Actual Result,Test Result
+Test 1,Verify Login Fields and Functionality,"Verify email, password input fields, and login button are present and functional.",User is on the home page.,"1. Navigate to the home page.
+2. Check if the email and password input fields are present.
+3. Check if the login button is present.
+4. Enter valid email and password into the respective fields.",Sample email and password (test@example.com / password123),"Email and password fields, and login button are visible. Able to input email and password in respective fields.", Email and password fields are displayed. Login button is visible. Successfully able to input email and password in the respective fileds.,PASS
+Test 2,Verify List Group Values,Validate the list items and badge value in the test 2 div.,User is on the home page.,"1. Navigate to the home page.
+2. Locate the test 2 div.
+3. Assert there are three items in the list group.
+4. Verify the second item is ""List Item 2.""
+5. Verify the badge value for the second item is 6.",N/A,Three list items present; second item labeled correctly with badge value 6.,"Three list items found. Second item displays ""List Item 2"" with badge value 6.",PASS
+Test 3,Verify Default and Selected Option in Dropdown,Validate the default and selected options in the dropdown of test 3 div.,User is on the home page.,"1. Navigate to the home page.
+2. Locate the test 3 div.
+3. Verify ""Option 1"" is selected by default.
+4. Select ""Option 3"" from the dropdown.",N/A,"Default selection is ""Option 1""; ""Option 3"" is selectable.","""Option 1"" selected by default. Successfully selected ""Option 3"".",PASS
+Test 4,Verify Button States,Validate the enabled/disabled states of buttons in the test 4 div.,User is on the home page.,"1. Navigate to the home page.
+2. Locate the test 4 div.
+3. Verify the first button is enabled.
+4. Verify the second button is disabled.",N/A,First button enabled; second button disabled.,First button is enabled. Second button is disabled as expected.,PASS
+Test 5,Verify Delayed Button and Success Message,Validate the appearance of a delayed button and success message post-click.,User is on the home page.,"1. Navigate to the home page.
+2. Locate the test 5 div.
+3. Wait for the button to appear (random delay).
+4. Click the button.
+5. Verify a success message ""You clicked a button!"" is displayed.
+6. Verify the button is now disabled.",N/A,"Button appears, click triggers success message ""You clicked a button!"", button becomes disabled.","Button displayed after delay. Clicked successfully. Success message shown as ""You clicked a button!"". Button is now disabled.",PASS
+Test 6,Verify Grid Cell Value,Write and use a method to find a specific grid cell value.,User is on the home page.,"1. Navigate to the home page.
+2. Implement a method to find a cell value based on coordinates.
+3. Use the method to get the value at coordinates (2, 2).
+4. Verify the value is ""Ventosanzap.""","Coordinates (2, 2)","Expected Result: Cell at (2, 2) contains ""Ventosanzap.""","Cell at coordinates (2, 2) contains the value ""Ventosanzap"".",PASS

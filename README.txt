@@ -35,6 +35,8 @@ Follow these steps to set up the project and run the tests:
 
 3. Modify the BASE_URL
     The BASE_URL variable is defined in the config.ts file. This URL points to the HTML file that the tests will interact with.
+    This project includes QE-index.html file in it. 
+    You can copy the file path where you cloned the repository on your local and replace the existing BASE_URL with the new one.
 
     Open the config.ts file and modify the BASE_URL to point to the correct location of your HTML file:
 
@@ -45,6 +47,8 @@ Follow these steps to set up the project and run the tests:
     Once the dependencies are installed, you can run the Playwright tests using the following command:
 
         npx playwright test
+
+    Please refer to testcases document testcases.csv or testcases.xlsx for the tests implemented.
 
 5. View Test Reports
     After running the tests, Playwright generates a report that you can view. I have configured to always open index.html on browser in the file playwright.congig.js
